@@ -22,7 +22,7 @@ $thank_you1 = new Emoji('アリガ━(ﾟ∀ﾟ)━( ﾟ∀)━( ﾟ)━( )━(�
 ', '', 'thank_you');
 
 /* お笑い comedy */
-$comedy1 = new Emoji('( ˚Д˚)ﾉ なんでやねん(笑)', 'comedy');
+$comedy1 = new Emoji('( ˚Д˚)ﾉ なんでやねん(笑)', '', 'comedy');
 /* チラッ peek */
 
 /* ？ どこ？ where */
@@ -34,5 +34,7 @@ $comedy1 = new Emoji('( ˚Д˚)ﾉ なんでやねん(笑)', 'comedy');
 /* 動物 animal */
 
 /* 記号 */
+
+$emojis = array($thank_you1, $comedy1)
 
 ?>
