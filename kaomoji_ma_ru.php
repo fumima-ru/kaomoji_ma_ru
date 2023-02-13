@@ -2,6 +2,7 @@
 <!-- インスタのDMにて顔文字とペンネーム(任意) -->
 <!-- 例　(*^▽^*)　 Request from 〇〇(ペンネーム)-->
 <!-- ペンネームから検索 -->
+<!-- ご自身の責任で使用していただく -->
 
 <?php
 /* require_once ('クラス')
@@ -48,14 +49,17 @@ require_once ('kaomojima_ru_data.php') */
     <!--#header-------------------------->
     <header id="header">
       <div class="logo">
-        <a href="#"></a>
+        <a href="#">顔文字マール</a>
+        <p>自身が よく使う顔文字をまとめてみました。ご自由にお使いください。</p>
       </div>
     </header>
 
     <!--.container----------------------->
     <div class="container">
       <!--main----------------------------->
-      <main></main>
+      <main>
+        
+      </main>
       
       <!--#footer-------------------------->
       <footer id="footer" class="wrapper">
@@ -64,5 +68,7 @@ require_once ('kaomojima_ru_data.php') */
     </div>
   </body>
 </html>
+
+<!-- http://localhost/kaomoji_ma_ru/ -->
 
 
