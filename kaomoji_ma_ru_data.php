@@ -24,8 +24,8 @@ $prank = new Emoji('(๑¯∇¯๑)', '', 'prank');
 $anger1 = new Emoji('(・A・)ｲｸﾅｲ!!', '', 'anger');
 
 /* 哀 $sad = new Emoji('', '', 'sad'); */
+$sad = new Emoji('( ´•ω•` )', '', 'sad');
 
-/* 楽 $fun = new Emoji('', '', 'fun'); */
 
 /* 困る $trouble = new Emoji('', '', 'trouble');*/
 $trouble = new Emoji('((∩´o`∩))', '', 'trouble');
@@ -35,17 +35,9 @@ $trouble = new Emoji('(´>ω<｀)', '', 'trouble');
 /* 驚く $surprise = new Emoji('', '', 'surprise'); */
 $surprise1 = new Emoji('∑(°口°๑)', '', 'surprise');
 $surprise = new Emoji('∑( ◦д⊙)‼', '', 'surprise');
-$surprise = new Emoji('(>×<)', '', 'surprise');
 $surprise = new Emoji('\(°Д° )/', '', 'surprise'); 
 $surprise = new Emoji('Σ╰(°ㅂ° )╯', '', 'surprise');
-$surprise = new Emoji('　　　　あ　あ
-　　あ　　　　　 あ
-   は　　   ぁ　ぁ　    あ
-ぐ　    ぁ　　　っ　    あ
-　     ぁ　 (ﾟДﾟ )・∵　 あ
-　　 ぁ　　　　　　 あ
-　　　ぁ　　　　   あ
-　　　　 ぁ　あ', '', 'surprise');
+
 
 /* 照れる $shy = new Emoji('', '', 'shy'); */
 $shy1 = new Emoji('(ฅ∀<`๑)ﾃﾍｯ', '', 'shy');
@@ -76,24 +68,22 @@ $peek = new Emoji('ε”ε”ε”٩(๑•ㅂ•)۶', '', 'peek');
 $peek = new Emoji('ε=ε=ε=(ﾉ｀・∀・)ﾉ
 ', '', 'peek');
 
-/* ？ $question = new Emoji('', '', 'question'); */
-
 /* どこ？ $where = new Emoji('', '', 'where'); */
 $where1 = new Emoji('(ﾟДﾟ≡ﾟДﾟ)', '', 'where');
 
 /* キター $come = new Emoji('', '', 'come'); */
 $come1 = new Emoji('ｷﾀ━━━━(ﾟ∀ﾟ)━━━━!!', '', 'come');
 
-/* 飲食 $eat_drink = new Emoji('', '', 'eat_drink'); */
+/* メモ $memo = new Emoji('', '', 'memo'); */
+$memo = new Emoji('φ(･д･｡) ﾒﾓﾒﾓ', '', 'memo');
 
+/* 飲食 $eat_drink = new Emoji('', '', 'eat_drink'); */
+$eat_drink = new Emoji('(>×<)', '', 'eat_drink');
 
 /* バタッ $exhaustion = new Emoji('', '', 'exhaustion'); */
 $exhaustion = new Emoji('_(:3｣ ∠)_', '', 'exhaustion');
 $exhaustion = new Emoji('_(:D」L)_', '', 'exhaustion');
 $exhaustion = new Emoji('≡(:D)┿━<', '', 'exhaustion');
-
-
-/* 動物 $animal = new Emoji('', '', 'animal'); */
 
 /* 線 $line = new Emoji('', '', 'line'); */
 $line1 = new Emoji('❁〜❁〜❁〜❁〜❁〜❁〜❁〜❁〜❁〜❁', '', 'line');
