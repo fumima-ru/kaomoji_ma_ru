@@ -6,8 +6,8 @@
 <!-- 文字化けの注意書き -->
 
 <?php
-/* require_once ('クラス')
-require_once ('kaomojima_ru_data.php') */
+require_once ('kaomoji_ma_ru_emoji_class');
+require_once ('kaomojima_ru_data.php');
 ?>
 
 <!DOCTYPE html>
@@ -59,17 +59,33 @@ require_once ('kaomojima_ru_data.php') */
     <div class="container">
       <!--main----------------------------->
       <main>
-        
+        <div class="emoticon">
+          <h1 class="emoticon_title">
+            <!-- 要ここからスタート<?php foreach ($emoticons as $emoticon): ?>
+              <?php switch ($emoticon): ?>
+                <?php case $emoticon->getCategory(); === 'joy': ?>
+                  <p><?php echo '楽しい・嬉しい'; ?></p>
+                  <p><?php echo $emoticon->getEmoticon(); ?></p>
+                  <?php break; ?>
+                <?php default: ?>
+                  <?php echo 'それ以外'; ?>
+                  <?php break; ?>
+              <?php endswitch ?>
+            <?php endforeach ?>       -->
+          </h1>
+        </div>
       </main>
       
       <!--#footer-------------------------->
       <footer id="footer" class="wrapper">
-        <p class="copyright">&copy; <!--サイトタイトル--></p>
+        <p class="copyright">&copy; fumima_ru</p>
       </footer>
     </div>
   </body>
+
+
 </html>
 
 <!-- http://localhost/kaomoji_ma_ru/ -->
 
-
+<!-- ->getCategory() -->

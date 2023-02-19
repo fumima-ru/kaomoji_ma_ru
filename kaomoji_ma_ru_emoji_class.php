@@ -1,17 +1,17 @@
 <?php
-class Emoji {
-  private $emoji;
+class Emoticon {
+  private $emoticon;
   private $pen_name;
   private $category;
 
-  public function __construct($emoji, $pen_name, $category) {
-    $this->emoji = $emoji;
+  public function __construct($emoticon, $pen_name, $category) {
+    $this->emoticon = $emoticon;
     $this->pen_name = $pen_name;
     $this->category = $category;
   }
   
-  public function getEmoji() {
-    return $this->emoji;
+  public function getEmoticon() {
+    return $this->emoticon;
   }
   
   public function getPen_name() {
